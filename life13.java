@@ -1,4 +1,4 @@
-
+// Write he following expression in a java program : (v² - u²) ÷ (2 × a × 5)
 import java.util.Scanner;
 public class life13 {
     public static void main(String[] args) {
