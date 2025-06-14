@@ -1,3 +1,9 @@
+## 📌 Table of Contents
+- [About Me](#-about-me)
+- [Java Programs](#-java)
+- [Resources I Use](#-resources-i-use)
+- [Feedback](#-feedback)
+
 # 🧑‍💻 JAVA
 
 This repository includes all of my Java programs.
