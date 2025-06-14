@@ -19,11 +19,14 @@ Some things I love about his channel:
 
 📌 Hindi explanations for better understanding (if you're comfortable)
 
-🌐 In addition to video tutorials, I regularly use the internet to deepen my understanding of various topics.
-I explore official documentation, community forums like Stack Overflow, and websites such as GeeksforGeeks and W3Schools to clarify doubts and reinforce my learning.
+🌐 In addition to video tutorials, I regularly use the internet to deepen my understanding of various topics. I explore official documentation, community forums like Stack Overflow, and websites such as GeeksforGeeks and W3Schools to clarify doubts and reinforce my learning.
 
+
+<tr>
+ 
 >> For those who are beginning their Java journey, I highly recommend the following resource: [Java Tutorials for Beginners](https://www.youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q) by CodeWithHarry. It offers a comprehensive and well-structured introduction to Java programming.
 
+</tr>
 
 
 These resources collectively help me build a solid foundation as I continue progressing in Java development.
