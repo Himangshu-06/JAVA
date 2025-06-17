@@ -13,5 +13,9 @@ public class life15 {
 //        Scanner obj = new Scanner(System.in);
 //        String a = obj.nextLine();
 //        System.out.println(a+ " World");
+
+        /*String is a sequence of characters (like a text) used to store words, sentences, or any text data. It’s written in double quotes, like "Hello",
+        and is a class (not a primitive type) that provides methods to manipulate text, such as finding its length or changing its case.
+        Strings are immutable, meaning their content can’t be changed after creation.*/
     }
 }
