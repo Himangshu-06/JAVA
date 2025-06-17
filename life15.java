@@ -2,6 +2,8 @@
 import java.util.Scanner;
 public class life15 {
     public static void main(String[] args) {
+//        String a = new String("Hello");
+//        System.out.println(a);
 //        String a = "world";
 //        System.out.println("Hello "+a);
         int a = 3;
