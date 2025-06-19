@@ -29,13 +29,14 @@ public class life16 {
         System.out.println(me.replace("ngshu","_06")); //put Himangshu
         System.out.println(me.replace("r","ier")); //put Harry
 
-        System.out.println(me.startsWith("Him"));
+        System.out.println(me.startsWith("Him")); //put Himangshu
         System.out.println(me.endsWith("shu"));
 
         System.out.println(me.charAt(2));
 
         System.out.println(me.indexOf("m"));
-        System.out.println(me.indexOf("m",3));
-
+        System.out.println(me.indexOf("m", 3));
+        System.out.println(me.lastIndexOf("shu"));
+        System.out.println(me.lastIndexOf("a",2));
     }
 }
