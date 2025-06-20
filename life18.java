@@ -1,0 +1,6 @@
+public class life18 {
+    public static void main(String[] args) {
+        String a = "H i m a n g s h u";
+        System.out.println(a.replace(" ","_"));
+    }
+}
