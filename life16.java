@@ -1,3 +1,4 @@
+// Demonstration of String methods:-
 import  java.util.Scanner;
 public class life16 {
     public static void main(String[] args) {
