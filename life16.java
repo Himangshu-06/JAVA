@@ -37,6 +37,13 @@ public class life16 {
         System.out.println(me.indexOf("m"));
         System.out.println(me.indexOf("m", 3));
         System.out.println(me.lastIndexOf("shu"));
-        System.out.println(me.lastIndexOf("a",2));
+        System.out.println(me.lastIndexOf("a",3));
+
+        System.out.println(me.equals("Himangshu"));
+        System.out.println(me.equalsIgnoreCase("HiManGshu"));
+
+        // Escape sequence characters :-
+        System.out.println("Hello // world");
+
     }
 }
