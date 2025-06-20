@@ -43,7 +43,20 @@ public class life16 {
         System.out.println(me.equalsIgnoreCase("HiManGshu"));
 
         // Escape sequence characters :-
-        System.out.println("Hello // world");
+        System.out.println("Hello \n world");
+        System.out.println("Hello\tworld");
+        System.out.println("Hello \"hola\" world");
+        System.out.println("Hello \'Hola\' world");
+        System.out.println("Hello \\ world");
 
+        // Escape Sequence Characters for Quick Reference:
+//       \n   - New line (moves cursor to next line)
+//       \t   - Tab (adds a horizontal space)
+//       \"   - Double quote (includes " in a string)
+//       \'   - Single quote (includes ' in a char or string)
+//       \\   - Backslash (includes \ in a string)
+//       \r   - Carriage return (moves cursor to start of line)
+//       \b   - Backspace (deletes one character backward)
+//       \f   - Form feed (advances to next page in some contexts)
     }
 }
