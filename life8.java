@@ -1,4 +1,4 @@
-// Demonstration of Operators :-
+// Demonstration of Operators: -
 public class life8 {
     public static void main(String[] args) {
         // 1. Arithmetic Operators
