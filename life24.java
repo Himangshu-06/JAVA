@@ -1,4 +1,4 @@
-// If else if ladder,
+// If else if ladder:-
 
 import java.util.Scanner;
 
@@ -24,8 +24,5 @@ public class life24 {
         } else{
             System.out.println("Better luck next time");
         }
-
-
-
     }
 }
