@@ -1,5 +1,5 @@
 // If else if ladder:-
-
+//vid 18
 import java.util.Scanner;
 
 public class life24 {
