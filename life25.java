@@ -27,27 +27,27 @@ public class life25 {
 //        Demonstration of enhanced switch statements
 
         char z = 'b';
-        switch (a) {
-            case 'b':
-                System.out.println("Hello");
-                break;
-            case 'c':
-                System.out.println("Hi");
-                break;
-            case 'd':
-                System.out.println("Hey");
-                break;
-            case 'e':
-                System.out.println("Hola");
-                break;
-        }
+//        switch (a) {
+//            case 'b':
+//                System.out.println("Hello");
+//                break;
+//            case 'c':
+//                System.out.println("Hi");
+//                break;
+//            case 'd':
+//                System.out.println("Hey");
+//                break;
+//            case 'e':
+//                System.out.println("Hola");
+//                break;
+//        }
 
 //        Enhance switch: -
-//        switch (a) {
-//            case 'b' -> System.out.println("Hello");
-//            case 'c' -> System.out.println("Hi");
-//            case 'd' -> System.out.println("Hey");
-//            case 'e' -> System.out.println("Hola");
-//        }
+        switch (z) {
+            case 'b' -> System.out.println("Hello");
+            case 'c' -> System.out.println("Hi");
+            case 'd' -> System.out.println("Hey");
+            case 'e' -> System.out.println("Hola");
+        }
     }
 }
