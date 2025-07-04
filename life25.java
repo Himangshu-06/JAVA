@@ -24,10 +24,11 @@ public class life25 {
                 System.out.println("odd");
             }
         }
-//        Demonstration of enhanced switch statements
+//        Demonstration of enhanced switch statement:
 
+//        With old style switch statement:
         char z = 'b';
-//        switch (a) {
+//        switch (z) {
 //            case 'b':
 //                System.out.println("Hello");
 //                break;
@@ -42,12 +43,14 @@ public class life25 {
 //                break;
 //        }
 
-//        Enhance switch: -
+//        Same code with the Enhanced switch statement: -
         switch (z) {
             case 'b' -> System.out.println("Hello");
             case 'c' -> System.out.println("Hi");
             case 'd' -> System.out.println("Hey");
             case 'e' -> System.out.println("Hola");
+            default -> System.out.println("Unknown character");
         }
+        obj.close();
     }
 }
