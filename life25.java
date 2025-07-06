@@ -1,6 +1,6 @@
 // Demonstration of switch statement:-
 //vid 18
-// Q: Write a program to check Even or Odd number using switch case ?
+// Q: Write a program to check Even or Odd number using switch case
 
 import java.util.Scanner;
 
