@@ -4,16 +4,12 @@ import java.util.Scanner;
 public class life29 {
         public static void main(String[] args){
             Scanner obj = new Scanner(System.in);
+            System.out.print("Write your number: \t");
             int day= obj.nextInt();
             switch (day){
-                case 1:
-                    System.out.println("Sunday");
-                    break;
-                case 2:
-                    System.out.println("Monday");
-                    break;
-                default:
-                    System.out.println("Write a valid number");
+                case 1 ->System.out.println("Sunday");
+                case 2 ->System.out.println("Monday");
+                default ->System.out.println("Write a valid number");
             }
 
         }
