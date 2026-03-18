@@ -1,5 +1,7 @@
+/*PS_Ch4_Q3 Write a Java program to find out the day of the week given the number [1 for monday, 2 for
+Tuesday... and so on..]*/
 import java.util.Scanner;
-public class test1 {
+public class life29 {
         public static void main(String[] args){
             Scanner obj = new Scanner(System.in);
             int day= obj.nextInt();
