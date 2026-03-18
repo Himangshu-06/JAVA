@@ -3,7 +3,7 @@ Implement constructors and define operations for addition, subtraction and multi
 Also include a function to calculate magnitude. Demonstrate the use of your class with a suitable program and
 explain your design.*/
 //solution:-
-
+ 
 /*class Complex {
     double real, imag;
     Complex(double r, double i) {
