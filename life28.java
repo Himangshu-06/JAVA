@@ -1,4 +1,4 @@
-/**/PS_ch4_3  (Question is in the copy)
+/*PS_ch4_3  (Question is in the copy)*/
 import java.util.Scanner;
 public class life28 {
     public static void main(String[] args) {
