@@ -18,6 +18,7 @@ public class Loops_32 {
 //        }while (b<=n);
 
 //        For Loop:
+//           First n odd numbers
 //        for(int a=1;a<=20;a+=2){
 //            System.out.println(a);
 //        }
@@ -30,5 +31,9 @@ public class Loops_32 {
 //            System.out.println(2 * i + 1);
 //        }
 //        }
+//        Q. First n natural number in reverse order
+        for(int i=15; i>=0; i--){
+            System.out.println(i);
+        }
     }
 }
