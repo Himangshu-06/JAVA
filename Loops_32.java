@@ -1,8 +1,6 @@
-import java.util.Scanner;
+// Loops:
 public class Loops_32 {
     public static void main(String[] args){
-        Scanner obj = new Scanner(System.in);
-        obj.close();
 //        While Loop:
 //        int i  = 99;
 //        while(i<200){
@@ -32,8 +30,10 @@ public class Loops_32 {
 //        }
 //        }
 //        Q. First n natural number in reverse order
-        for(int i=15; i>=0; i--){
+        for(int i=15; i>0; i--){
             System.out.println(i);
         }
+
+
     }
 }
