@@ -15,13 +15,13 @@ public class PS_ch5_34 {
 
 //        Q2. sum first n even numbers using while loop
 
-        int i=0;
         int no = 5;
         int j = 0;
-        while(j>no){
-            int even = 2*j;
+        while(j<no){
             j++;
-            int add = even+j;
+            int even = 2*j;
+
+            int add = even+no;
             System.out.println(add);
         }
 
