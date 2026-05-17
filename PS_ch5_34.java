@@ -65,11 +65,10 @@ public class PS_ch5_34 {
 //        Q5. Factorial of a given number using for loop
 
         int n = 4;
-        int c=1;
+        int c= 1;
         for (int a =1;a<=n;a++){
-            c++;
-            int b =a*c;
-            System.out.println(b);
+            c*=a;                 //CONCENTRATE HERE MAN
+            System.out.println(c);
         }
     }
 }
