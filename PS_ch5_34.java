@@ -64,7 +64,7 @@ public class PS_ch5_34 {
 
 //        Q5. Factorial of a given number using for loop
 
-        int n = 4;
+        int n = 5;
         int c= 1;
         for (int a =1;a<=n;a++){
             c*=a;                 //CONCENTRATE HERE MAN
