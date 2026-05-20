@@ -6,6 +6,7 @@ public class Multidimensional_Array_36 {
             System.out.println(a);
             for (int b=0; b<two[a].length; b++){
                 System.out.print(two[a][b] +" ");
+
             }
         }
     }
