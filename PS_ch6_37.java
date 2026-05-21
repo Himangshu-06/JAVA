@@ -24,6 +24,7 @@ public class PS_ch6_37 {
 //            Q2. to find out whether an integer is present in an array or not ?
 //        System.out.print("Enter a number to check: ");
 //        int b= sc.nextInt();
+//        sc.close();
 //        int[] array ={1,2,3,4,5};
 //        boolean found = false;
 //        for (int var : array){
@@ -39,6 +40,13 @@ public class PS_ch6_37 {
 //            System.out.println("The number is not present");
 //        }
 
-//        Q3.
+//        Q3. Average marks from an array containing marks of all student using for-each loop ?
+
+        double a= 0;
+        int[] marks = {99,32,54,45,12,54};
+        for (int var : marks){
+            a= a+var;
+        }
+        System.out.printf("Average marks: %.2f" ,a/marks.length);
     }
 }
