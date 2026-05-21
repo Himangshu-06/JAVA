@@ -22,23 +22,23 @@ public class PS_ch6_37 {
 //            System.out.println(sum);
 
 //            Q2. to find out whether an integer is present in an array or not ?
-        System.out.print("Enter a number to check: ");
-        int b= sc.nextInt();
-        int[] array ={1,2,3,4,5};
-        boolean found = false;
-        for (int var : array){
+//        System.out.print("Enter a number to check: ");
+//        int b= sc.nextInt();
+//        int[] array ={1,2,3,4,5};
+//        boolean found = false;
+//        for (int var : array){
+//
+//            if (var==b){
+//                found= true;
+//                break;
+//            }
+//        }
+//        if (found){
+//            System.out.println("The number is present");
+//        }else {
+//            System.out.println("The number is not present");
+//        }
 
-            if (var==b){
-                found= true;
-            }
-        }
-        if (found){
-            System.out.println("The number is present");
-        }else {
-            System.out.println("The number is not present");
-        }
-
-
-
+//        Q3.
     }
 }
