@@ -21,7 +21,7 @@ public class Array_35 {
 //            System.out.println(marks[b]);
 //        }
 
-//        Displaying using for-each loop
+//        Displaying elements using for-each loop (Advance for)
         for (int var: marks){
             System.out.println(var);
         }
