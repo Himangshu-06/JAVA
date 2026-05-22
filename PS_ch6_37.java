@@ -42,11 +42,51 @@ public class PS_ch6_37 {
 
 //        Q3. Average marks from an array containing marks of all student using for-each loop ?
 
-        double a= 0;
-        int[] marks = {99,32,54,45,12,54};
-        for (int var : marks){
-            a= a+var;
+//        double a= 0;
+//        int[] marks = {99,32,54,45,12,54};
+//        for (int var : marks){
+//            a= a+var;
+//        }
+//        System.out.printf("Average marks: %.2f" ,a/marks.length);
+
+//        Q4. To add two matrices of size 2*3 ?
+
+        int[][] num1 = {{1,2,3},
+                        {1,2,3}};
+        int[][] num2= {{2,3,3},
+                      {3,4,5}};
+        int[][] result ={{0,0,0},
+                    {0,0,0}};
+        for (int a=0; a<num1.length; a++){
+            for (int b=0; b<num1[a].length;b++){
+                result[a][b]=num1[a][b]+num2[a][b];
+                System.out.print(result[a][b] +" ");
+            }
+            System.out.println();
         }
-        System.out.printf("Average marks: %.2f" ,a/marks.length);
+
+//        Other way to do it-
+
+//                int[][] matrix1 = {{1, 2, 3},
+//                        {4, 5, 6}};
+//
+//                int[][] matrix2 = {{7, 8, 9},
+//                        {10, 11, 12}};
+//
+//                int[][] result = new int[2][3];
+//
+//                for (int i = 0; i < 2; i++) {
+//                    for (int j = 0; j < 3; j++) {
+//                        result[i][j] = matrix1[i][j] + matrix2[i][j];
+//                    }
+//                }
+//
+//                for (int[] row : result) {
+//                    for (int var : row) {
+//                        System.out.print(var + " ");
+//                    }
+//                    System.out.println();
+//                }
+
     }
 }
