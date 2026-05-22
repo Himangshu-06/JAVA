@@ -51,19 +51,19 @@ public class PS_ch6_37 {
 
 //        Q4. To add two matrices of size 2*3 ?
 
-        int[][] num1 = {{1,2,3},
-                        {1,2,3}};
-        int[][] num2= {{2,3,3},
-                      {3,4,5}};
-        int[][] result ={{0,0,0},
-                    {0,0,0}};
-        for (int a=0; a<num1.length; a++){
-            for (int b=0; b<num1[a].length;b++){
-                result[a][b]=num1[a][b]+num2[a][b];
-                System.out.print(result[a][b] +" ");
-            }
-            System.out.println();
-        }
+//        int[][] num1 = {{1,2,3},
+//                        {1,2,3}};
+//        int[][] num2= {{2,3,3},
+//                      {3,4,5}};
+//        int[][] result ={{0,0,0},
+//                    {0,0,0}};
+//        for (int a=0; a<num1.length; a++){
+//            for (int b=0; b<num1[a].length;b++){
+//                result[a][b]=num1[a][b]+num2[a][b];
+//                System.out.print(result[a][b] +" ");
+//            }
+//            System.out.println();
+//        }
 
 //        Other way to do it-
 
@@ -87,6 +87,13 @@ public class PS_ch6_37 {
 //                    }
 //                    System.out.println();
 //                }
+
+//        Q5. Program to reverse an array ?
+
+        String[] fruit ={"Apple","Banana","Mango","Dragon fruit"};
+        for (int a=fruit.length-1; a>=0; a--){
+            System.out.println(fruit[a]);
+        }
 
     }
 }
