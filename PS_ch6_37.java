@@ -90,10 +90,22 @@ public class PS_ch6_37 {
 
 //        Q5. Program to reverse an array ?
 
-        String[] fruit ={"Apple","Banana","Mango","Dragon fruit"};
-        for (int a=fruit.length-1; a>=0; a--){
-            System.out.println(fruit[a]);
-        }
+//        String[] fruit ={"Apple","Banana","Mango","Dragon fruit"};
+//        for (int a=fruit.length-1; a>=0; a--){
+//            System.out.println(fruit[a]);
+//        }
 
+//        Another way to do it- (Swaping)
+
+//        Q6. Maximum element in an Array ?
+
+        int[] num= {1,2,3,4};
+        int comp= num[0];
+        for (int var: num){
+            if (var>comp){
+                comp=var;
+            }
+        }
+        System.out.println(comp);
     }
 }
