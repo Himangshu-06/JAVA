@@ -99,13 +99,34 @@ public class PS_ch6_37 {
 
 //        Q6. Maximum element in an Array ?
 
-        int[] num= {1,2,3,4};
-        int comp= num[0];
-        for (int var: num){
-            if (var>comp){
-                comp=var;
-            }
+//        int[] num= {1,2,3,4};
+//        int comp= num[0];
+//        for (int var: num){
+//            if (var>comp){
+//                comp=var;
+//            }
+//        }
+//        System.out.println(comp);
+
+//        Other way to do it-
+
+        int [] arr = {1, 21, 3, 4, 5, 34, 67};
+        int l = arr.length;
+        int n = Math.floorDiv(l, 2);
+        int temp;
+
+        for(int i=0; i<n; i++){
+            // Swap a[i] and a[l-1-i]
+            // a   b   temp
+            // |4| |3| ||
+            temp = arr[i];
+            arr[i] = arr[l-i-1];
+            arr[l-i-1] = temp;
         }
-        System.out.println(comp);
+
+        for(int element: arr){
+            System.out.print(element + " ");
+        }
+
     }
 }
