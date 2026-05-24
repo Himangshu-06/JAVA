@@ -94,7 +94,7 @@ public class PS_ch6_37 {
 //            System.out.println(fruit[a]);
 //        }
 
-//        Another way to do it- (Swaping)
+//        Another way to do it (Swaping)-
 
 //        int [] arr = {1, 21, 3, 4, 5, 34, 67};
 //        int l = arr.length;
@@ -114,31 +114,28 @@ public class PS_ch6_37 {
 //            System.out.print(element + " ");
 //        }
 
-        int[] numbers = {1,2,3,4,5};
-        int n = Math.floorDiv(numbers.length, 2);
-        int n= numbers.length-1-a;
-        int temp;
-        for (int a=0; a<n;a++){
-            temp= numbers[a];
-            numbers[a]= numbers.length-1-a;
-            temp=n ;
-        }
-
-        for (int var : numbers){
-            System.out.println(var);
-        }
-
 //        Q6. Maximum element in an Array ?
 
-//        int[] num= {1,2,3,4};
-//        int comp= num[0];
-//        for (int var: num){
-//            if (var>comp){
-//                comp=var;
+//        int[] numbers = {34,3,4,80};
+//        int max = Integer.MIN_VALUE;
+//        for (int var: numbers){
+//            if (var> max){
+//                max =var;
 //            }
 //        }
-//        System.out.println(comp);
+//        System.out.println(max);
 
 //        Other way to do it-
+
+        int[] numbers = {34,3,4,80,100};
+        int max = 0;
+        for (int var: numbers){
+            if (var> max){
+                max =var;
+            }
+        }
+        System.out.println(max);
+
+//
     }
 }
