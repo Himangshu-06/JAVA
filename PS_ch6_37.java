@@ -127,7 +127,7 @@ public class PS_ch6_37 {
 
 //        Other way to do it-
 
-        int[] numbers = {19,3,-4,80,100};
+//        int[] numbers = {19,3,4,80,100};
 //        int max = 0;
 //        for (int var: numbers){
 //            if (var> max){
@@ -138,15 +138,28 @@ public class PS_ch6_37 {
 
 //        Q7. To find minimum element in an Array ?
 
-        int min = Integer.MAX_VALUE;
-        for (int var : numbers){
-            if (var<min){
-                min=var;
+//        int min = Integer.MAX_VALUE;
+//        for (int var : numbers){
+//            if (var<min){
+//                min=var;
+//            }
+//        }
+//        System.out.println(min);
+
+//        Q8. Whether an Array is sorted or not ?
+        int[] numbers = {2,519,80,45,2,100};
+        boolean isSorted= true;
+        for (int a=0;a<numbers.length-1;a++){
+            if (numbers[a]>numbers[a+1]){
+                isSorted=false;
+                break;
             }
         }
-        System.out.println(min);
-
-
-
+        if (isSorted){
+            System.out.println("Array is  sorted");
+        }
+        else {
+            System.out.println("Array is NOT sorted");
+        }
     }
 }
