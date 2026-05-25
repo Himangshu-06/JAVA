@@ -114,7 +114,7 @@ public class PS_ch6_37 {
 //            System.out.print(element + " ");
 //        }
 
-//        Q6. Maximum element in an Array ?
+//        Q6. To find Maximum element in an Array ?
 
 //        int[] numbers = {34,3,4,80};
 //        int max = Integer.MIN_VALUE;
@@ -127,15 +127,26 @@ public class PS_ch6_37 {
 
 //        Other way to do it-
 
-        int[] numbers = {34,3,4,80,100};
-        int max = 0;
-        for (int var: numbers){
-            if (var> max){
-                max =var;
+        int[] numbers = {19,3,-4,80,100};
+//        int max = 0;
+//        for (int var: numbers){
+//            if (var> max){
+//                max =var;
+//            }
+//        }
+//        System.out.println(max);
+
+//        Q7. To find minimum element in an Array ?
+
+        int min = Integer.MAX_VALUE;
+        for (int var : numbers){
+            if (var<min){
+                min=var;
             }
         }
-        System.out.println(max);
+        System.out.println(min);
 
-//
+
+
     }
 }
