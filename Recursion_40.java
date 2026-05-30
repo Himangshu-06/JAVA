@@ -38,6 +38,6 @@ public class Recursion_40 {
 //        int a = 4;
 //        System.out.println("Sum of first "+a+" number is: " + sum(a));
 
-        System.out.println("Fibonacci number is: " +fibonacci(6));
+        System.out.println("Fibonacci number is: " +fibonacci(2));
     }
 }
