@@ -27,6 +27,7 @@ static void star(int n) {
         System.out.println("*".repeat(a));
     }
 }
+//        Q3. Recursive function to calculate sum of first n natural numbers.
 
     public static void main(String[] args) {
 //        multiply(3);
