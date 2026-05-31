@@ -12,18 +12,26 @@ public class PS_ch7_41 {
 //                                                   ***
 //                                                   ****
 
-    static void star(int n){
-        for (int a=1;a<=n;a++){
-            for (int b=0;b<a;b++){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+//    static void star(int n){
+//        for (int a=1;a<=n;a++){
+//            for (int b=0;b<a;b++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//    }
+//    Better wa to do Q2.
+
+static void star(int n) {
+    for (int a = 1; a <= n; a++) {
+        System.out.println("*".repeat(a));
     }
+}
 
     public static void main(String[] args) {
 //        multiply(3);
 
         star(4);
+
     }
 }
