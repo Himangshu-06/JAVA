@@ -7,15 +7,15 @@ public class PS_ch7_41 {
 //        }
 //    }
 
-//        Q2. Function t print the following pattern ****
-//                                                   ***
+//        Q2. Function t print the following pattern *
 //                                                   **
-//                                                   *
+//                                                   ***
+//                                                   ****
 
-    static void star(int a, int b){
-        for (a=0;a>b;a++){
-            for (b=0;b<a;b--){
-                System.out.println("*");
+    static void star(int n){
+        for (int a=1;a<=n;a++){
+            for (int b=0;b<a;b++){
+                System.out.print("*");
             }
             System.out.println();
         }
@@ -24,6 +24,6 @@ public class PS_ch7_41 {
     public static void main(String[] args) {
 //        multiply(3);
 
-        star(4,3);
+        star(4);
     }
 }
