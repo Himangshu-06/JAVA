@@ -29,15 +29,36 @@ public class PS_ch7_41 {
 //}
 //        Q3. Recursive function to calculate sum of first n natural numbers.
 
-    static int sum(int n){
-        if(n==1) return 1;
-        return n+sum(n-1);
+//    static int sum(int n){
+//        if(n==1) return 1;
+//        return n+sum(n-1);
+//    }
+
+//    Q4. Function to print the following pattern:****
+//                                                ***
+//                                                **
+//                                                *
+
+    static void starInverted(int a){
+       for (int b=a;b>=1;b--){
+           System.out.println("*".repeat(b));
+       }
+        System.out.println();
     }
+
+
     public static void main(String[] args) {
+
+//        Q1:
 //        multiply(3);
 
+//        Q2:
 //        star(4);
 
-        System.out.println("Sum of the first n natural number is: " +sum(4));
+//        Q3:
+//        System.out.println("Sum of the first n natural number is: " +sum(4));
+
+//        Q4:
+        starInverted(4);
     }
 }
