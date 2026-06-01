@@ -39,11 +39,17 @@ public class PS_ch7_41 {
 //                                                **
 //                                                *
 
-    static void starInverted(int a){
-       for (int b=a;b>=1;b--){
-           System.out.println("*".repeat(b));
-       }
-        System.out.println();
+//    static void starInverted(int a){
+//       for (int b=a;b>=1;b--){
+//           System.out.println("*".repeat(b));
+//       }
+//        System.out.println();
+//    }
+
+//    Q5. Function to print nth term of Fibonacci series using recursion ?
+
+    static int fibonacci(int a){
+
     }
 
 
@@ -59,6 +65,6 @@ public class PS_ch7_41 {
 //        System.out.println("Sum of the first n natural number is: " +sum(4));
 
 //        Q4:
-        starInverted(4);
+//        starInverted(4);
     }
 }
