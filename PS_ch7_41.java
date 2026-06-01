@@ -22,26 +22,22 @@ public class PS_ch7_41 {
 //    }
 //    Better wa to do Q2.
 
-static void star(int n) {
-    for (int a = 1; a <= n; a++) {
-        System.out.println("*".repeat(a));
-    }
-}
+//static void star(int n) {
+//    for (int a = 1; a <= n; a++) {
+//        System.out.println("*".repeat(a));
+//    }
+//}
 //        Q3. Recursive function to calculate sum of first n natural numbers.
 
-        static int sum(int n){
-        if(n==0){
-            return 0;
-        }else {
-            return n + sum(n - 1);
-        }
+    static int sum(int n){
+        if(n==1) return 1;
+        return n+sum(n-1);
     }
-
     public static void main(String[] args) {
 //        multiply(3);
 
 //        star(4);
 
-        sum(4);
+        System.out.println("Sum of the first n natural number is: " +sum(4));
     }
 }
