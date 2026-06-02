@@ -49,7 +49,8 @@ public class PS_ch7_41 {
 //    Q5. Function to print nth term of Fibonacci series using recursion ?
 
     static int fibonacci(int a){
-
+        if(a==1) return 1;
+        return fibonacci(a-1)+(a-2);
     }
 
 
@@ -66,5 +67,8 @@ public class PS_ch7_41 {
 
 //        Q4:
 //        starInverted(4);
+
+//        Q5:
+        System.out.println("Fibonacci number is: "+fibonacci(4));
     }
 }
