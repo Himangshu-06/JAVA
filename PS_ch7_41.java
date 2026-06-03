@@ -54,6 +54,7 @@ public class PS_ch7_41 {
         return fibonacci(a-1)+fibonacci(a-2);
     }
 
+//    Q6. Function to find average of a set of numbers passed as arguments
 
     public static void main(String[] args) {
 
@@ -70,6 +71,6 @@ public class PS_ch7_41 {
 //        starInverted(4);
 
 //        Q5:
-        System.out.println("Fibonacci number is: "+fibonacci(5));
+        System.out.println("Fibonacci number is: "+fibonacci(7));
     }
 }
