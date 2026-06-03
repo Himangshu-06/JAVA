@@ -65,6 +65,9 @@ public class PS_ch7_41 {
 
     }
 
+//    Q7. Repeat 4 using recursion ?
+    
+
     public static void main(String[] args) {
 
 //        Q1:
@@ -85,5 +88,8 @@ public class PS_ch7_41 {
 //        Q6:
         double[] x ={12.0,23.0,34.0,45.0,56.0,67.0,78.0,60.0,99.0};
         System.out.printf("Average of the given Array is: %.2f ",average(x));
+        
+//        Q7:
+        
     }
 }
