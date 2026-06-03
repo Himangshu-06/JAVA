@@ -55,15 +55,16 @@ public class PS_ch7_41 {
 //    }
 
 //    Q6. Function to find average of a set of numbers passed as arguments ?
-    static int average(int ...arr){
-        int sum =0;
-        for (int a =0; a<arr.length; a++){
-            if (arr.length == 0) return 0;
-            return (sum+=a)/2;
-
+    static double average(double ...arr){
+        double sum =0;
+        if (arr.length == 0) return 0;
+        for (double num : arr){
+            sum+= num;
         }
+        return sum/arr.length;
 
     }
+
     public static void main(String[] args) {
 
 //        Q1:
@@ -82,7 +83,7 @@ public class PS_ch7_41 {
 //        System.out.println("Fibonacci number is: "+fibonacci(7));
 
 //        Q6:
-        int[] x ={12,23,34,45,56,67,78};
-
+        double[] x ={12.0,23.0,34.0,45.0,56.0,67.0,78.0,60.0,99.0};
+        System.out.printf("Average of the given Array is: %.2f ",average(x));
     }
 }
