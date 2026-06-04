@@ -55,18 +55,23 @@ public class PS_ch7_41 {
 //    }
 
 //    Q6. Function to find average of a set of numbers passed as arguments ?
-    static double average(double ...arr){
-        double sum =0;
-        if (arr.length == 0) return 0;
-        for (double num : arr){
-            sum+= num;
-        }
-        return sum/arr.length;
-
-    }
+//    static double average(double ...arr){
+//        double sum =0;
+//        if (arr.length == 0) return 0;
+//        for (double num : arr){
+//            sum+= num;
+//        }
+//        return sum/arr.length;
+//
+//    }
 
 //    Q7. Repeat 4 using recursion ?
-    
+    static int repeat(int a){
+        if (a==0) return 0;
+        for (a=0;a<=4;a++){
+            return a;
+        }
+    }
 
     public static void main(String[] args) {
 
@@ -86,8 +91,8 @@ public class PS_ch7_41 {
 //        System.out.println("Fibonacci number is: "+fibonacci(7));
 
 //        Q6:
-        double[] x ={12.0,23.0,34.0,45.0,56.0,67.0,78.0,60.0,99.0};
-        System.out.printf("Average of the given Array is: %.2f ",average(x));
+//        double[] x ={12.0,23.0,34.0,45.0,56.0,67.0,78.0,60.0,99.0};
+//        System.out.printf("Average of the given Array is: %.2f ",average(x));
         
 //        Q7:
         
