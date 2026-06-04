@@ -48,11 +48,26 @@ public class PS_ch7_41 {
 
 //    Q5. Function to print nth term of Fibonacci series using recursion ?
 
-//    static int fibonacci(int a){
-//        if(a==0) return 0;
-//        if(a==1) return 1;
-//        return fibonacci(a-1)+fibonacci(a-2);
+    static int fibonacci(int a){
+        if(a==0) return 0;
+        if(a==1) return 1;
+        return fibonacci(a-1)+fibonacci(a-2);
+    }
+
+//    alternate way to do this:
+//static int fib(int n) {
+//        /* if(n==1){
+//            return 0;
+//        }
+//        else if(n==2){
+//            return 1;
+//        } */
+//    if (n == 1 || n == 2) {
+//        return n - 1;
+//    } else {
+//        return fib(n - 1) + fib(n - 2);
 //    }
+//}
 
 //    Q6. Function to find average of a set of numbers passed as arguments ?
 //    static double average(double ...arr){
@@ -66,12 +81,12 @@ public class PS_ch7_41 {
 //    }
 
 //    Q7. Repeat 4 using recursion ?
-    static int repeat(int a){
-        if (a==0) return 0;
-        for (a=0;a<=4;a++){
-            return a;
-        }
-    }
+//    static int repeat(int a){
+//        if (a==0) return 0;
+//        for (a=0;a<=4;a++){
+//            return a;
+//        }
+//    }
 
     public static void main(String[] args) {
 
@@ -88,7 +103,9 @@ public class PS_ch7_41 {
 //        starInverted(4);
 
 //        Q5:
-//        System.out.println("Fibonacci number is: "+fibonacci(7));
+        System.out.println("Fibonacci number is: "+fibonacci(5));
+//        int result = fib(7);
+//         System.out.println(result);
 
 //        Q6:
 //        double[] x ={12.0,23.0,34.0,45.0,56.0,67.0,78.0,60.0,99.0};
