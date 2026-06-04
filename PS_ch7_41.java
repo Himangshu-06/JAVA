@@ -48,11 +48,11 @@ public class PS_ch7_41 {
 
 //    Q5. Function to print nth term of Fibonacci series using recursion ?
 
-    static int fibonacci(int a){
-        if(a==0) return 0;
-        if(a==1) return 1;
-        return fibonacci(a-1)+fibonacci(a-2);
-    }
+//    static int fibonacci(int a){
+//        if(a==0) return 0;
+//        if(a==1) return 1;
+//        return fibonacci(a-1)+fibonacci(a-2);
+//    }
 
 //    alternate way to do this:
 //static int fib(int n) {
@@ -80,13 +80,16 @@ public class PS_ch7_41 {
 //
 //    }
 
-//    Q7. Repeat 4 using recursion ?
-//    static int repeat(int a){
-//        if (a==0) return 0;
-//        for (a=0;a<=4;a++){
-//            return a;
-//        }
-//    }
+    //    Q7. Repeat Q4 using recursion ?
+    static void repeat(int a) {
+        if (a!=0){
+            repeat(a-1);
+            for (int b=a; b>=1; b--){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
 
     public static void main(String[] args) {
 
@@ -103,7 +106,7 @@ public class PS_ch7_41 {
 //        starInverted(4);
 
 //        Q5:
-        System.out.println("Fibonacci number is: "+fibonacci(5));
+//        System.out.println("Fibonacci number is: "+fibonacci(5));
 //        int result = fib(7);
 //         System.out.println(result);
 
@@ -112,6 +115,7 @@ public class PS_ch7_41 {
 //        System.out.printf("Average of the given Array is: %.2f ",average(x));
         
 //        Q7:
+        repeat(4);
         
     }
 }
