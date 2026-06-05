@@ -81,15 +81,17 @@ public class PS_ch7_41 {
 //    }
 
     //    Q7. Repeat Q4 using recursion ?
-    static void repeat(int a) {
-        if (a!=0){
-            repeat(a-1);
-            for (int b=a; b>=1; b--){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-    }
+//    static void repeat(int a) {
+//        if (a!=0){
+//            repeat(a-1);
+//            for (int b=a; b>=1; b--){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//    }
+
+
 
     public static void main(String[] args) {
 
@@ -115,7 +117,7 @@ public class PS_ch7_41 {
 //        System.out.printf("Average of the given Array is: %.2f ",average(x));
         
 //        Q7:
-        repeat(4);
+//        repeat(4);
         
     }
 }
