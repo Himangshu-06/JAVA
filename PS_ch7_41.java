@@ -92,10 +92,19 @@ public class PS_ch7_41 {
 //    }
 
 //    Q9. Function to convert Celsius temperature to Fahrenheit.
-    static double temp(double a){
-//            Formula: (1°C × 9/5) + 32 = 33.8°F
-           return (a*(9.0/5))+32;
+//    static double temp(double a){
+//           Formula: (1°C × 9/5) + 32 = 33.8°F
+//           return (a*(9.0/5))+32;
+//
+//    }
 
+//    Q10. Repeat Q3 using Iterative approach ?
+    static int sum(int a){
+        int c = 0;
+        for (int b=1; b<=a; b++){
+            c+=b;
+        }
+        return c;
     }
 
     public static void main(String[] args) {
@@ -125,8 +134,11 @@ public class PS_ch7_41 {
 //        repeat(4);
 
 //        Q8:
-        int celcius =4;
-        System.out.printf("%d degree Celsius in Fahrenheit is: %.2f %n", celcius,temp(celcius));
+//        int celcius =4;
+//        System.out.printf("%d degree Celsius in Fahrenheit is: %.2f %n", celcius,temp(celcius));
+
+//        Q9:
+        System.out.println("Sum of first n natural numbers is: "+sum(4));
 
     }
 }
