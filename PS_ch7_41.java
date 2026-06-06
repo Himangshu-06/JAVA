@@ -81,17 +81,22 @@ public class PS_ch7_41 {
 //    }
 
     //    Q7. Repeat Q4 using recursion ?
-    static void repeat(int a) {
-        if (a!=0){
-            for (int b=a; b>=1; b--){
-                System.out.print("*");
-            }
-            System.out.println();
-            repeat(a-1);
-        }
+//    static void repeat(int a) {
+//        if (a!=0){
+//            for (int b=a; b>=1; b--){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//            repeat(a-1);
+//        }
+//    }
+
+//    Q9. Function to convert Celsius temperature to Fahrenheit.
+    static double temp(double a){
+//            Formula: (1°C × 9/5) + 32 = 33.8°F
+           return (a*(9.0/5))+32;
+
     }
-
-
 
     public static void main(String[] args) {
 
@@ -117,7 +122,11 @@ public class PS_ch7_41 {
 //        System.out.printf("Average of the given Array is: %.2f ",average(x));
         
 //        Q7:
-        repeat(4);
-        
+//        repeat(4);
+
+//        Q8:
+        int celcius =4;
+        System.out.printf("%d degree Celsius in Fahrenheit is: %.2f %n", celcius,temp(celcius));
+
     }
 }
