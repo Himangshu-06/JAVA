@@ -1,4 +1,5 @@
 //Write a program to calculate CGPA of a student based on marks in three subject (out of 100).
+
 import java.util.Scanner;
 public class life4 {
     public static void main(String[] args) {
