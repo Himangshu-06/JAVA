@@ -1,4 +1,5 @@
 //Demonstration of Precedence and Associativity and Quick quiz:-
+
 public class life9 {
     public static void main(String[] args) {
         // Precedence & Associativity
