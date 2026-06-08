@@ -1,5 +1,6 @@
 // Taking user input in Java
 // Importing the Scanner class
+
 import java.util.Scanner;
 public class life2
 {
