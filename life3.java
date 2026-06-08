@@ -1,4 +1,5 @@
 //Write a program which asks the user to enter their name and then prints "Hello <name>, Have a nice day" text.
+
 import java.util.Scanner;
 public class life3{
     public static void main(String[] args) {
