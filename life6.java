@@ -1,4 +1,5 @@
 //write a program to check whether the user input is an integer or not.
+
 import java.util.Scanner;
 public class life6 {
     public static void main(String[] args) {
