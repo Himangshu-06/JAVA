@@ -14,7 +14,7 @@ Here, you’ll find my Java code organized systematically, including basic examp
 
 ## 📚 Resources I Use
 
-I'm currently learning Java from [CodeWithHarry](https://www.youtube.com/@CodeWithHarry) on YouTube. His tutorials are beginner-friendly, well-structured, and explained in a clear and practical manner.
+I'm currently learning Java from [CodeWithHarry](https://www.youtube.com/@CodeWithHarry)  on YouTube. His tutorials are beginner-friendly, well-structured, and explained in a clear and practical manner.
 
 Some key highlights of his channel:
 
