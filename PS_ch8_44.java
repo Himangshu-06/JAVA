@@ -31,14 +31,26 @@
 //}
 
 //      Q3. Create a class square with a method to initialize it's side, calculating area, perimeter etc.
-class square{
-    int side;
+//class square{
+//    int side;
+//
+//    public int area(){
+//        return side*side;
+//    }
+//    public int perimeter(){
+//        return 4*side;
+//    }
+//}
 
+//      Q4. Create a class rectangle & repeat Q3
+class rectangle{
+    int length;
+    int width;
     public int area(){
-        return side*side;
+        return length*width;
     }
     public int perimeter(){
-        return 4*side;
+        return 2*(length+width);
     }
 }
 
@@ -59,9 +71,16 @@ public class PS_ch8_44 {
 //        phone.vibrate();
 
 //        Q3.
-        square calculate = new square();
-        calculate.side = 5;
-        System.out.println("Area of the square is: " +calculate.area());
-        System.out.println("Perimeter of the square is: " +calculate.perimeter());
+//        square calculate = new square();
+//        calculate.side = 5;
+//        System.out.println("Area of the square is: " +calculate.area());
+//        System.out.println("Perimeter of the square is: " +calculate.perimeter());
+
+//        Q4.
+        rectangle calculate1 = new rectangle();
+        calculate1.length = 4;
+        calculate1.width = 3;
+        System.out.println("Area of the rectangle: " +calculate1.area());
+        System.out.println("Perimeter of the rectangle is: " +calculate1.perimeter());
     }
 }
