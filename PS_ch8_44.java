@@ -8,12 +8,11 @@ class employee{
     public String getName(){
         return name;
     }
-    public String setName(String n){
+    public void setName(String n){
         name = n;
-        return name;
     }
 }
-public class PS_ch8_42 {
+public class PS_ch8_44 {
     public static void main(String[] args) {
         employee identity = new employee();
 
