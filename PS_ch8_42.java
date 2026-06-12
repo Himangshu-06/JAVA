@@ -1,7 +1,6 @@
 class employee{
     int salary;
     String name;
-    String newName;
 
     public int getSalary(){
         return salary;
@@ -9,20 +8,19 @@ class employee{
     public String getName(){
         return name;
     }
-    public String changeName(){
-        name = newName;
+    public String setName(String n){
+        name = n;
         return name;
     }
 }
 public class PS_ch8_42 {
     public static void main(String[] args) {
-        employee himangshu = new employee();
+        employee identity = new employee();
 
-        himangshu.salary = 24;
-        System.out.println("Salary: "+himangshu.getSalary());
-        himangshu.name = "Himangshu";
-        System.out.println("Name: "+himangshu.getName());
-        himangshu.newName = "John Doe";
-        System.out.println("New name: "+himangshu.changeName());
+        identity.salary = 24;
+        System.out.printf("Salary: %d LPA%n",identity.getSalary());
+        identity.setName("Himangshu");
+        System.out.println("Name: "+identity.getName());
+
     }
 }
