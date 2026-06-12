@@ -43,17 +43,26 @@
 //}
 
 //      Q4. Create a class rectangle & repeat Q3
-class rectangle{
-    int length;
-    int width;
-    public int area(){
-        return length*width;
-    }
-    public int perimeter(){
-        return 2*(length+width);
+//class rectangle{
+//    int length;
+//    int width;
+//    public int area(){
+//        return length*width;
+//    }
+//    public int perimeter(){
+//        return 2*(length+width);
+//    }
+//}
+
+//      Q5. Create a class Tommy Vecetti for Rockstar Games capable of hitting(print hitting..), running, shooting etc.
+class tommy{
+    public void hit(){
+    System.out.println("Action performing: Hitting");
+}
+    public void run(){
+        System.out.println("Action performing: Running");
     }
 }
-
 public class PS_ch8_44 {
     public static void main(String[] args) {
 
@@ -77,10 +86,15 @@ public class PS_ch8_44 {
 //        System.out.println("Perimeter of the square is: " +calculate.perimeter());
 
 //        Q4.
-        rectangle calculate1 = new rectangle();
-        calculate1.length = 4;
-        calculate1.width = 3;
-        System.out.println("Area of the rectangle: " +calculate1.area());
-        System.out.println("Perimeter of the rectangle is: " +calculate1.perimeter());
+//        rectangle calculate1 = new rectangle();
+//        calculate1.length = 4;
+//        calculate1.width = 3;
+//        System.out.println("Area of the rectangle: " +calculate1.area());
+//        System.out.println("Perimeter of the rectangle is: " +calculate1.perimeter());
+
+//        Q5:
+        tommy action = new tommy();
+        action.hit();
+        action.run();
     }
 }
