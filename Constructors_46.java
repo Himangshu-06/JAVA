@@ -11,29 +11,42 @@
   It is declared inside a class but outside any method or constructor.
   It belongs to each instance (object) of the class.
   It represents the state of the object.*/
-public class Constructors_46 {
-    String name;
-    int roll;
-    boolean num;
-    Constructors_46(String name, int roll){
-        this.name = name;
-        this.roll = roll;
-        this.num = false;
-    }
-
-//    Constructor overloading -
-     Constructors_46(String n){
-        this.name =  n;
+class student1 {
+     String name;
+     int roll;
+     boolean num;
+     int marks;
+     student1(String name, int roll) {
+         this.name = name;
+         this.roll = roll;
+         this.num = false;
      }
 
-     public static void main(String[] args) {
-        Constructors_46 student = new Constructors_46("Himangshu", 1);
-         System.out.println(student.name);
-         System.out.println(student.roll);
-         System.out.println(student.num);
+     //    Constructor overloading -
+     student1(String n) {
+         this.name = n;
+     }
+
+     //     Quick quiz(my version) - Overload the student1 constructor to initialize the marks to 99.
+     student1(String name, int roll, int marks){
+         this.name = name;
+         this.roll = roll;
+         this.marks = marks;
+     }
+ }
+     public class Constructors_46 {
+         public static void main(String[] args) {
+             student1 student = new student1("Himangshu", 1);
+             System.out.println(student.name);
+             System.out.println(student.roll);
+             System.out.println(student.num);
 
 //         Constructor overloading -
-         Constructors_46 student2 = new Constructors_46("John");
-         System.out.println(student2.name);
+             student1 student2 = new student1("John");
+             System.out.println(student2.name);
+
+//             Quick Quiz -
+             student1 addMarks = new student1("Ram", 2, 99);
+             System.out.println(addMarks.marks);
+         }
      }
-}
