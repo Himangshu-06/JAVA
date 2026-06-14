@@ -1,4 +1,4 @@
- /* Constructor - A constructor is a special method that runs automatically when you create an object. Its job is to set up the initial values of that object.
+ /*Constructor - A constructor is a special method that runs automatically when you create an object. Its job is to set up the initial values of that object.
       Two things that make it special:
   It has the same name as the class
   It has no return type
@@ -14,8 +14,22 @@
 public class Constructors_46 {
     String name;
     int roll;
+    boolean num;
     Constructors_46(String name, int roll){
         this.name = name;
         this.roll = roll;
+        this.num = false;
     }
+
+     public static void main(String[] args) {
+        Constructors_46 student = new Constructors_46("Himangshu", 1);
+         System.out.println(student.name);
+         System.out.println(student.roll);
+         System.out.println(student.num);
+
+         Constructors_46 student2 = new Constructors_46("John", 10);
+         System.out.println(student2.name);
+         System.out.println(student2.roll);
+         System.out.println(student2.num);
+     }
 }
