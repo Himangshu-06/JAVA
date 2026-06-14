@@ -21,15 +21,19 @@ public class Constructors_46 {
         this.num = false;
     }
 
+//    Constructor overloading -
+     Constructors_46(String n){
+        this.name =  n;
+     }
+
      public static void main(String[] args) {
         Constructors_46 student = new Constructors_46("Himangshu", 1);
          System.out.println(student.name);
          System.out.println(student.roll);
          System.out.println(student.num);
 
-         Constructors_46 student2 = new Constructors_46("John", 10);
+//         Constructor overloading -
+         Constructors_46 student2 = new Constructors_46("John");
          System.out.println(student2.name);
-         System.out.println(student2.roll);
-         System.out.println(student2.num);
      }
 }
