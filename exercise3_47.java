@@ -10,17 +10,33 @@ import java.util.Scanner;
 import java.util.Random;
 
 class Guess{
-    private int number;
-    private int sc;
+    private int randNumber;
+    private int noOfGuess;
+    private int userInput;
      Guess(){
         Random number = new Random();
-         Scanner sc = new Scanner(System.in);
-         if(number==sc)
+        this.randNumber = number.nextInt(200)+1;
+        noOfGuess = 0;
      }
+
+     public void takeUserInput(){
+         Scanner sc = new Scanner(System.in);
+         int num = sc.nextInt();
+         this.userInput = num;
+     }
+     void getRandNumber(int input){
+          input = userInput;
+     }
+
+    public int getNoOfGuess() {
+        return noOfGuess;
+    }
+    public int getUserInput(){
+         return userInput;
+    }
 }
 public class exercise3_47 {
     public static void main() {
-
-//        while (Guess == )
+        while ()
     }
 }
