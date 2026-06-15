@@ -9,34 +9,26 @@
 import java.util.Scanner;
 import java.util.Random;
 
-class Guess{
+class Guess {
     private int randNumber;
     private int noOfGuess;
     private int userInput;
-     Guess(){
+
+    Guess() {
         Random number = new Random();
-        this.randNumber = number.nextInt(200)+1;
+        this.randNumber = number.nextInt(100) + 1;
         noOfGuess = 0;
-     }
-
-     public void takeUserInput(){
-         Scanner sc = new Scanner(System.in);
-         int num = sc.nextInt();
-         this.userInput = num;
-     }
-     void getRandNumber(int input){
-          input = userInput;
-     }
-
-    public int getNoOfGuess() {
-        return noOfGuess;
     }
-    public int getUserInput(){
-         return userInput;
+
+    public void takeUserInput() {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        this.userInput = num;
+        noOfGuess++;
     }
 }
-public class exercise3_47 {
-    public static void main() {
-        while ()
+    public class exercise3_47 {
+        public static void main(String[] args) {
+
+        }
     }
-}
