@@ -29,6 +29,9 @@ class Guess{
     public int getTakeUserInput(){
         return this.takeUserInput;
     }
+    public int getNoOfAttempt(){
+        return noOfAttempt;
+    }
 }
 public class exercise3_47 {
     public static void main(String[] args) {
@@ -41,6 +44,7 @@ public class exercise3_47 {
 
         }while (game.getTakeUserInput() != game.getRandnumber());
         System.out.println("Good job lad");
+        System.out.println("Your no of attempts: " +game.getNoOfAttempt());
     }
 
 }
