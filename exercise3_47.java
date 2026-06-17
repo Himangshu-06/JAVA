@@ -10,15 +10,15 @@ import java.util.Random;
 import java.util.Scanner;
 
 class Guess{
-    private int randnumber;
+    private final int randNumber;
     private int takeUserInput;
     private int noOfAttempt;
     Guess(){
         Random rand = new Random();
-        this.randnumber = rand.nextInt(10,20);
+        this.randNumber = rand.nextInt(10,20);
     }
-    public int getRandnumber(){
-        return randnumber;
+    public int getRandNumber(){
+        return randNumber;
     }
 
     public void TakeUserInput(){
@@ -42,7 +42,7 @@ public class exercise3_47 {
             System.out.print("Enter your lucky no :(again) ");
             game.TakeUserInput();
 
-        }while (game.getTakeUserInput() != game.getRandnumber());
+        }while (game.getTakeUserInput() != game.getRandNumber());
         System.out.println("Good job lad");
         System.out.println("Your no of attempts: " +game.getNoOfAttempt());
     }
