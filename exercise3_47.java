@@ -11,8 +11,8 @@ import java.util.Scanner;
 
 class Guess{
     private final int randNumber;
-    private int takeUserInput;
-    private int noOfAttempt;
+    private int userGuess;
+    private int noOfAttempt = 0;
     Guess(){
         Random rand = new Random();
         this.randNumber = rand.nextInt(10,20);
@@ -21,13 +21,13 @@ class Guess{
         return randNumber;
     }
 
-    public void TakeUserInput(){
+    public void takeUserInput(){
         Scanner sc = new Scanner(System.in);
-        this.takeUserInput = sc.nextInt();
+        this.userGuess = sc.nextInt();
         noOfAttempt++;
     }
-    public int getTakeUserInput(){
-        return this.takeUserInput;
+    public int getUserGuess(){
+        return this.userGuess;
     }
     public int getNoOfAttempt(){
         return noOfAttempt;
@@ -40,9 +40,9 @@ public class exercise3_47 {
 
         do {
             System.out.print("Enter your lucky no :(again) ");
-            game.TakeUserInput();
+            game.takeUserInput();
 
-        }while (game.getTakeUserInput() != game.getRandNumber());
+        }while (game.getUserGuess() != game.getRandNumber());
         System.out.println("Good job lad");
         System.out.println("Your no of attempts: " +game.getNoOfAttempt());
     }
