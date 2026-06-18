@@ -13,6 +13,7 @@ class Guess{
     private final int randNumber;
     private int userGuess;
     private int noOfAttempt = 0;
+    private int type = 0;
     Guess(){
         Random rand = new Random();
         this.randNumber = rand.nextInt(10,20);
@@ -33,6 +34,7 @@ class Guess{
         return noOfAttempt;
     }
 }
+
 public class exercise3_47 {
     public static void main(String[] args) {
         System.out.println("Enter a number between 10 - 20");
