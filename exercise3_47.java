@@ -33,6 +33,8 @@ class Guess{
     public int getNoOfAttempt(){
         return noOfAttempt;
     }
+    public boolean isCorrectNumber(){ return this.getRandNumber() == this.getUserGuess();}
+    public void setNoOfAttempt(int attempt){this.noOfAttempt = attempt;}
 }
 
 public class exercise3_47 {
@@ -40,17 +42,16 @@ public class exercise3_47 {
         System.out.println("Enter a number between 10 - 20");
         Guess game = new Guess();
 
-
-
         do {
             System.out.print("Enter your lucky no :(again) ");
             game.takeUserInput();
             if (game.getUserGuess() > game.getRandNumber()) {
-                System.out.println("Too High, a bit lower");
+                System.out.println("Too High, a bit lower\n");
             } else if (game.getUserGuess() < game.getRandNumber()) {
-                System.out.println("Too low, a bit higher");
+                System.out.println("Too low, a bit higher\n");
             }
-        } while (game.getUserGuess() != game.getRandNumber());
+        } while (!game.isCorrectNumber());
+
         System.out.println("Good job lad");
         System.out.println("Your no of attempts: " + game.getNoOfAttempt());
 
