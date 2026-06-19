@@ -13,7 +13,7 @@ class Guess{
     private final int randNumber;
     private int userGuess;
     private int noOfAttempt = 0;
-    private int type = 0;
+
     Guess(){
         Random rand = new Random();
         this.randNumber = rand.nextInt(10,20);
@@ -40,13 +40,21 @@ public class exercise3_47 {
         System.out.println("Enter a number between 10 - 20");
         Guess game = new Guess();
 
+
+
         do {
             System.out.print("Enter your lucky no :(again) ");
             game.takeUserInput();
-
-        }while (game.getUserGuess() != game.getRandNumber());
+            if (game.getUserGuess() > game.getRandNumber()) {
+                System.out.println("Too High, a bit lower");
+            } else if (game.getUserGuess() < game.getRandNumber()) {
+                System.out.println("Too low, a bit higher");
+            }
+        } while (game.getUserGuess() != game.getRandNumber());
         System.out.println("Good job lad");
-        System.out.println("Your no of attempts: " +game.getNoOfAttempt());
+        System.out.println("Your no of attempts: " + game.getNoOfAttempt());
+
+
     }
 
 }
