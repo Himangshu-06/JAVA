@@ -16,7 +16,7 @@ class Guess{
 
     Guess(){
         Random rand = new Random();
-        this.randNumber = rand.nextInt(10,20);
+        this.randNumber = rand.nextInt(0,10);
     }
     public int getRandNumber(){
         return randNumber;
@@ -39,7 +39,7 @@ class Guess{
 
 public class exercise3_47 {
     public static void main(String[] args) {
-        System.out.println("Enter a number between 10 - 20");
+        System.out.println("Enter a number between 0 - 10");
         Guess game = new Guess();
 
         do {
@@ -54,8 +54,6 @@ public class exercise3_47 {
 
         System.out.println("Good job lad");
         System.out.println("Your no of attempts: " + game.getNoOfAttempt());
-
-
     }
 
 }
