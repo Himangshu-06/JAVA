@@ -8,7 +8,7 @@ class Cylinder{
         return radios;
     }
 
-    public void setRadios(int radios) {
+    public void setRadios(int radios){
         this.radios = radios;
     }
 
@@ -28,19 +28,22 @@ class Cylinder{
     public double getVolume() {
         return Math.PI*radios*radios*height;
     }
+
+//    Q3. Use a constructor and repeat Q1
+    Cylinder(int radios,int height){
+        this.radios = radios;
+        this.height = height;
+    }
 }
 public class PS_ch9_48 {
     public static void main(String[] args) {
-        Cylinder calc = new Cylinder();
-//        Q1:
-        calc.setRadios(10);
-        calc.setHeight(20);
-//
+//        Q1 & Q3:
+        Cylinder calc = new Cylinder(1,2);
+
         System.out.println("Radios: "+calc.getRadios());
         System.out.println("Height: "+calc.getHeight());
 
 //        Q2:
-
         System.out.printf("Surface area: %.2f%n",calc.getSurfaceArea());
         System.out.printf("Volume: %.2f",calc.getVolume());
     }
