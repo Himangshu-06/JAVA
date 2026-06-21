@@ -21,10 +21,6 @@ class Cylinder{
     }
 
 //    Q2. Use Q1 to calculate surface area and volume of the cylinder.
-
-    private double surfaceArea;
-    private double volume;
-
     public double getSurfaceArea() {
         return 2*Math.PI*radios*height+2*Math.PI*radios*radios;
     }
