@@ -34,6 +34,10 @@ class Cylinder{
         this.radios = radios;
         this.height = height;
     }
+//    Q4. Overload a constructor used to initialize a rectangle of length 4 and 5 for using custom parameters.
+    Cylinder(int length, int breath, int result){
+
+    }
 }
 public class PS_ch9_48 {
     public static void main(String[] args) {
