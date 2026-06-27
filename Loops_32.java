@@ -1,4 +1,4 @@
-// Loops:
+
 public class Loops_32 {
     public static void main(String[] args){
 //        While Loop:
