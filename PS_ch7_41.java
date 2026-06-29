@@ -11,7 +11,6 @@ public class PS_ch7_41 {
 //                                                   **
 //                                                   ***
 //                                                   ****
-
 //    static void star(int n){
 //        for (int a=1;a<=n;a++){
 //            for (int b=0;b<a;b++){
@@ -20,7 +19,7 @@ public class PS_ch7_41 {
 //            System.out.println();
 //        }
 //    }
-//    Better wa to do Q2.
+//    Better way to do Q2.
 
 //static void star(int n) {
 //    for (int a = 1; a <= n; a++) {
@@ -28,7 +27,6 @@ public class PS_ch7_41 {
 //    }
 //}
 //        Q3. Recursive function to calculate sum of first n natural numbers.
-
 //    static int sum(int n){
 //        if(n==1) return 1;
 //        return n+sum(n-1);
@@ -38,7 +36,6 @@ public class PS_ch7_41 {
 //                                                ***
 //                                                **
 //                                                *
-
 //    static void starInverted(int a){
 //       for (int b=a;b>=1;b--){
 //           System.out.println("*".repeat(b));
@@ -47,7 +44,6 @@ public class PS_ch7_41 {
 //    }
 
 //    Q5. Function to print nth term of Fibonacci series using recursion ?
-
 //    static int fibonacci(int a){
 //        if(a==0) return 0;
 //        if(a==1) return 1;
