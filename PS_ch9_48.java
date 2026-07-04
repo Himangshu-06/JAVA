@@ -34,10 +34,30 @@ class Cylinder{
         this.radios = radios;
         this.height = height;
     }
-//    Q4. Overload a constructor used to initialize a rectangle of length 4 and 5 for using custom parameters.
+}
+
+//    Q4. Overload a constructor used to initialize a rectangle of length 4 and breadth 5 for using custom parameters.
+
+class Rectangle{
     private int length;
-    Cylinder(int length, int breath, int result){
+    private int breadth;
+
+    public Rectangle() {
+        this.length = 10;
+        this.breadth = 20;
+    }
+
+    public Rectangle(int breadth, int length) {
+        this.breadth = breadth;
         this.length = length;
+    }
+
+    public int getLength() {
+        return length;
+    }
+
+    public int getBreadth() {
+        return breadth;
     }
 }
 public class PS_ch9_48 {
@@ -50,6 +70,11 @@ public class PS_ch9_48 {
 
 //        Q2:
         System.out.printf("Surface area: %.2f%n",calc.getSurfaceArea());
-        System.out.printf("Volume: %.2f",calc.getVolume());
+        System.out.printf("Volume: %.2f%n",calc.getVolume());
+
+//        Q4:
+        Rectangle ans = new Rectangle();
+        System.out.println("Rectangle length: "+ans.getLength());
+        System.out.println("Rectangle breadth: "+ans.getBreadth());
     }
 }
