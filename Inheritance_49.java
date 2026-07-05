@@ -1,3 +1,4 @@
+// Quick quiz: Create a Class Animal and Derive another class Dog from it.
 class Animal{
     private int noOfLegs;
     private boolean canFly;
@@ -23,16 +24,15 @@ class Dog extends Animal{
     private boolean bark;
     private boolean walk;
 
-    public boolean isBark() {
+    public boolean getBark() {
         return bark;
     }
 
-    public int setBark(boolean bark) {
+    public void setBark(boolean bark) {
         this.bark = bark;
-        return bark;
     }
 
-    public boolean isWalk() {
+    public boolean getWalk() {
         return walk;
     }
 
@@ -43,9 +43,15 @@ class Dog extends Animal{
 public class Inheritance_49 {
     public static void main(String[] args) {
         Animal specs = new Animal();
-        Dog attri = new Dog();
+        Dog attr = new Dog();
 
-        System.out.println("No of legs: " +attri.setNoOfLegs());
-        System.out.println("Can fly ?= " +attri.setCanFly(false));
+        attr.setNoOfLegs(4);
+        System.out.println("No of legs: " +attr.getNoOfLegs());
+        attr.setCanFly(false);
+        System.out.println("Can fly ? " +attr.getCanFly());
+        attr.setBark(true);
+        System.out.println("Does bark: "+attr.getBark());
+        attr.setWalk(true);
+        System.out.println("Walk on foot? " +attr.getWalk());
     }
 }
