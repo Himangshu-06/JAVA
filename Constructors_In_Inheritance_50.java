@@ -2,6 +2,10 @@ class Species{
     private int legs;
     private int hands;
 
+    public Species(int legs, int hands) {
+        this.legs = legs;
+    }
+
     public int getLegs() {
         return legs;
     }
