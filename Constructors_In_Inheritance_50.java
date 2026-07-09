@@ -1,50 +1,20 @@
 class Species{
-    private int legs;
-    private int hands;
-
-    public Species(int legs, int hands) {
-        this.legs = legs;
+    public Species() {
+        System.out.println("Hi");
     }
-
-    public int getLegs() {
-        return legs;
-    }
-
-    public void setLegs(int legs) {
-        this.legs = legs;
-    }
-
-    public int getHands() {
-        return hands;
-    }
-
-    public void setHands(int hands) {
-        this.hands = hands;
+    public Species(int a){
+        System.out.println("This is a overloaded constructor with a value: "+a);
     }
 }
 
 class Human extends Species{
-    private int speak;
-    private int walk;
-
-    public int getSpeak() {
-        return speak;
-    }
-
-    public void setSpeak(int speak) {
-        this.speak = speak;
-    }
-
-    public int getWalk() {
-        return walk;
-    }
-
-    public void setWalk(int walk) {
-        this.walk = walk;
+    public Human() {
+        super(20);
+        System.out.println("In derived class");
     }
 }
 public class Constructors_In_Inheritance_50 {
     public static void main(String[] args) {
-
+        Human obj = new Human();
     }
 }
