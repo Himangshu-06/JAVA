@@ -5,10 +5,11 @@ class Class1 extends Object{
 public class This_Super_51 {
     public static void main(String[] args) {
 
-        /* Notes from Telusko-
+/* Notes from Telusko-
+
 #1
 Whenever you call an object, it will create a constructor of a class.
-When we create an object of a class that it calls the constructor of a sub-class as well as a constructor of a superclass.
+When we create an object of a class that it calls the constructor of a subclass as well as a constructor of a superclass.
 If you do not pass any value in an object, then it will call the default constructor of a class.
 But if you pass the value in an object, then it will call the parameterised constructor of that class.
 
@@ -37,8 +38,9 @@ Both this and super method can be used any number of times in a code.
 But both can be used only one time inside a constructor.
 Both are non-static keywords.
 
-        Notes from CwH -
-#1 "this" keyword in Java :
+Notes from CwH -
+
+#1 "this" keyword :
 this is a way for us to reference an object of the class which is being created/referenced.
 It is used to call the default constructor of the same class.
 this keyword eliminates the confusion between the parameters and the class attributes with the same name.
