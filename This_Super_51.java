@@ -1,5 +1,5 @@
 //  From Telusko video no #51 - https://youtu.be/u2oT-qogaFI
-class Class1 extends Object{
+class Class1{
 
 }
 public class This_Super_51 {
