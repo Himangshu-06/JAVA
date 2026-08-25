@@ -1,3 +1,6 @@
+/*Dynamic method dispatch is also known as run time polymorphism.
+It is the process through which a call to an overridden method is resolved at runtime.
+This technique is used to resolve a call to an overridden method at runtime rather than compile time.*/
 
 class Car{
 
