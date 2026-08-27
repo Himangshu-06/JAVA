@@ -6,7 +6,7 @@ class  Circle{
 class cylinder extends Circle{
 
 }
-public class PS_ch10_54 {
+public class PS_ch10_55 {
     public static void main (String[] args){
 
     }
